@@ -83,4 +83,3 @@ This project is **open-source** and free to use. Feel free to modify and enhance
 
 ---
 
-Give me some description for the project
