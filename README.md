@@ -43,7 +43,7 @@ Welcome to **X - Twitter Frontend Clone**! This is a simple and elegant replica 
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/X-Twitter-Frontend-Clone.git
+   git clone https://github.com/vanshtyagi001/X-Twitter-Frontend-Clone.git
    ```
 2. **Open the **``** file in a browser**
    ```sh
