@@ -1,9 +1,6 @@
 /*DOCUMENTATION
 
-START FROM USER GIRD
-
-
-
+Not added responsiveness according to device screen size -  will add later
 
 */
 
@@ -208,9 +205,11 @@ body {
 }
 
 .happings{
-    background-color:#242424;
+    background-color:#000000;
     padding-left:20px;
     padding-top:10px;
+    border-bottom: 1.5px solid rgb(106, 106, 106);
+    
 
 }
 .happings-1{
@@ -223,10 +222,62 @@ body {
     color: rgb(153, 153, 153);
     font-weight: 600;
 }
+.happings-wht input{
+    background-color: #000;
+    border: none;
+    outline: none;
+    font-size: x-large;
+    padding-left: 10px;
+    color: white;
+    
+
+}
+
+
+
 .happings-img img{
     height: 7vh;
     border-radius:50% ;
 }
+
+.happings-2{
+    margin-top: 1.3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.happings-2 i{
+    font-size: 3vh;
+    color: #1d9af1;
+    padding-left:20px;
+}
+.happings-post{
+    background-color:#959b9b;
+    color:#000;
+    font-weight: 600;
+    padding: 10px 18px ;
+    border-radius: 25px;
+    margin-right: 3%;
+    margin-bottom: 0.8%;
+    transition:0.4s  ease-in-out;
+}
+
+.happings-post:hover{
+    background-color: #fff;
+}
+
+.posts{
+    background-color: #000000;
+    display: flex;
+    justify-content: center; 
+    color: #1c9bef;
+    border-bottom: 1.5px solid rgb(106, 106, 106);
+    font-weight: 200;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
 
 
 
@@ -234,4 +285,42 @@ body {
     background-color: #666666;
     height: 100vh;
     width: 25%;
+    margin-left: 75%;
+    position: fixed;
+}
+.content-3{
+    margin-left:7%;
+}
+
+.srch{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;  
+    background-color: #000;
+    padding: 7px 1cap;
+    border-radius: 100px;;
+    width: 70%;
+    font-size: larger;
+    color: #757575;
+    border: 1.5px solid #2f3237;
+
+    
+}
+.srch input{
+
+    background-color: #000;
+    border: none;
+    outline: none;
+    margin-left: 3%;
+    width: 80%;
+    height: 5vh;
+    color:  #757575;
+
+    
+}
+
+.srch input::placeholder{
+    
+    color:#757575;
+    font-size: larger;
 }
