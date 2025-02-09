@@ -153,6 +153,7 @@ body {
     margin-top: 1.5vh;
     font-size: 1.2rem;
     font-weight: 900;
+    width: 150%;
 }
 
 #im3 {
@@ -263,6 +264,7 @@ body {
     font-size: 3vh;
     color: #1d9af1;
     padding-left:20px;
+    cursor: pointer;
 }
 .happings-post{
     background-color:#959b9b;
@@ -272,6 +274,7 @@ body {
     border-radius: 25px;
     margin-right: 3%;
     margin-bottom: 0.8%;
+    cursor: pointer;
     transition:0.4s  ease-in-out;
 }
 
@@ -393,6 +396,7 @@ body {
 .hpn1{
     font-size: larger;
     font-weight: 600;
+    
 }
 
 .hpnimg img {
@@ -401,6 +405,7 @@ body {
     object-fit: cover;
     padding-right: 8px;
     border-radius: 9px;
+    cursor: pointer;
 }
 #live{
     font-size: x-small;
@@ -408,6 +413,8 @@ body {
 }
 .hpnn{
     font-weight: 600;
+    cursor: pointer;
+
 }
 
 .trend{
@@ -420,6 +427,8 @@ body {
 }
 .hpn3{
     margin-top: 5%;
+    cursor: pointer;
+
 }
 #ti{
     font-size: small;
