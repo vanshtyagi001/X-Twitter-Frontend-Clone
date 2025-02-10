@@ -7,7 +7,7 @@ Welcome to **X - Twitter Frontend Clone**! This is a simple and elegant replica 
 ## 📸 Preview
 
 
-The project is live at http://x.vanshtyagi.live/ Or <a href="http://x.vanshtyagi.live/">Click Here</a>
+The project is live at http://x.vanshtyagi.live/ Or <a href="https://vanshtyagi001.github.io/X-Twitter-Frontend-Clone/">Click Here</a>
 
 
 ---
