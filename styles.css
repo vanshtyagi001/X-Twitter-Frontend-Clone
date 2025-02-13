@@ -625,6 +625,11 @@ body {
     padding-bottom: 2%;
     cursor: pointer;
 }
+@media all and (min-width:481px){
+    .mobs{
+        display: none;
+    }
+}
 
 
 
