@@ -457,14 +457,20 @@ body {
     background-color: #000000;
     height: 110vh;
     width: 25%;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     margin-left: 75%;
     position: fixed;
+    overflow: auto;
     scrollbar-width: none;  
+
     -ms-overflow-style: none; 
 }
 .div3::-webkit-scrollbar {
     display: none;
+}
+.div3s{
+    position: relative;
+    
 }
 .content-3{
     margin-left:7%;
@@ -549,6 +555,7 @@ body {
     border-radius: 20px;
     border: 1.5px solid #2f3237;
     border-radius: 30px;
+    margin-bottom: 70%;
 }
 .hpnn{
     display: flex;
@@ -617,4 +624,159 @@ body {
     padding-top: 3%;
     padding-bottom: 2%;
     cursor: pointer;
+}
+
+
+
+/* For Mobile Phones */
+
+@media all and (max-width:480px){
+    .laps{
+        display: none;
+    }
+    .mdiv1 {
+        padding: 2%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 96%;
+        background-color: #000000;
+        border-bottom: 1.5px solid rgb(106, 106, 106);
+    }
+    
+    .mnav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .mnav img {
+        width: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    #mlogo {
+        color: #cfcfcf;
+        font-size: xx-large;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    #mlogo:hover {
+        color: white;
+    }
+
+
+    
+    #upgrade {
+        padding: 5px 15px;
+        border: 0.8px solid rgb(106, 106, 106);
+        border-radius: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    #upgrade:hover{
+        background-color: #282828;
+    }
+
+   
+    
+    .mtab ul {
+        margin-top: 4%;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    
+    .mtab .mtab {
+        font-weight: 600;
+        padding: 10px;
+        cursor: pointer;
+        color: #474747;
+        position: relative;
+    }
+    
+    .mtab .mactive {
+        color: white;
+    }
+    
+    .mtab .mactive::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: #2196F3;
+        border-radius: 25px;
+    }
+    
+    .mdiv2{
+        margin-top:25% ;
+        background-color: #2f3237;
+    }
+    
+
+
+
+    .mdiv3{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background-color: #000000;
+        display: flex;
+        justify-content: space-between;
+        font-size: 150%;
+        align-items: center;
+        border-top: 1.5px solid rgb(106, 106, 106);
+
+    }
+    .mdiv3 i{
+        padding: 25px 25px;
+        color: #c3c3c3;
+        transition: 0.4s ease-in-out;
+    }
+    .mdiv3 i:hover{
+        color: white;
+    }
+    .mdiv3 i:focus{
+        color: white;
+
+    }
+    .bell {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    #icons {
+        font-size: 20px;
+    }
+    @keyframes blink {
+        0%, 100% { opacity: 1; }  
+        50% { opacity: 0; }   
+    }
+    
+    #count {
+        position: absolute; 
+        top: 25%;
+        left: 50%;
+        background-color: #1c9af0;
+        color: white;
+        font-size: 12px;
+        border-radius: 50%;
+        font-weight: 200;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 16px;
+        min-height: 16px;
+        animation: blink infinite;
+        animation-duration: 10s; 
+        /* animation-delay: 10s; */
+    }
+
 }
