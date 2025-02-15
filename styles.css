@@ -625,14 +625,13 @@ body {
     padding-bottom: 2%;
     cursor: pointer;
 }
+
+
 @media all and (min-width:481px){
     .mobs{
         display: none;
     }
 }
-
-
-
 /* For Mobile Phones */
 
 @media all and (max-width:480px){
@@ -644,6 +643,8 @@ body {
         position: fixed;
         top: 0;
         left: 0;
+        /* margin: 0px;
+        height: 25vh; */
         width: 96%;
         background-color: #000000;
         border-bottom: 1.5px solid rgb(106, 106, 106);
@@ -720,11 +721,77 @@ body {
     }
     
     .mdiv2{
-        margin-top:25% ;
-        background-color: #2f3237;
+        display: flex;
+        margin-top: calc(3% + 100px);
+        width: 95%;
+        padding: 10px;
+        background-color: #000000;
+        border-bottom: 1.5px solid rgb(106, 106, 106);
+
+       
     }
+    .mposty{
+        display: flex;
+    }
+    /* .mdiv2x{
+        display: flex;
+        margin-top: 1%;
+        width: 95%;
+        padding: 10px;
+        background-color: #000000;
+        border-bottom: 1.5px solid rgb(106, 106, 106);
+     
+    } */
     
 
+    .mdiv21{
+        padding-right: 2%;
+    }
+    .mavatar {
+        width: 13vw;
+        margin-right: 1vw;
+        border-radius: 50%;
+    }
+    .mdiv22{
+        margin-top: 1%;
+    }
+    .musername{
+        font-weight: bold;
+        padding-right: 1vw;
+    }
+    .mtick{
+        padding-right: 2vw;
+    }
+    .muserid{
+        color: #757575;
+    }
+    .mpostcontent{
+        padding-top: 2%;
+    }
+    .mvisuals {
+        padding-top: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mvisuals video {
+        width: 80%;
+        border-radius: 10px ;
+        border: 1.5px solid rgb(148, 148, 148);
+    }
+    .mvisuals img {
+        width: 80%;
+        border-radius: 10px ;
+        border: 1.5px solid rgb(148, 148, 148);
+    }
+    .mposticons ul{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+    
 
 
     .mdiv3{
@@ -740,7 +807,7 @@ body {
 
     }
     .mdiv3 i{
-        padding: 25px 25px;
+        padding: 6vw 3vw;
         color: #c3c3c3;
         transition: 0.4s ease-in-out;
     }
